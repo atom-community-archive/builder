@@ -1,0 +1,29 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Build Current FIle'
+      'command': 'builder:buildfile'
+    },
+    {
+      'label': 'Build Current Project'
+      'command': 'builder:buildproject'
+    },
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'builder'
+      'submenu': [
+        {
+          'label': 'Build Current File'
+          'command': 'builder:buildfile'
+        },
+        {
+          'label': 'Build Current Project'
+          'command': 'builder:buildproject'
+        }
+      ]
+    ]
+  }
+]

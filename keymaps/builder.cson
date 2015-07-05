@@ -1,0 +1,3 @@
+'atom-workspace':
+  'ctrl-alt-b': 'builder:buildfile'
+  'cmd-ctrl-alt-b': 'builder:buildproject'

@@ -1,0 +1,34 @@
+{
+  "name": "builder",
+  "main": "./lib/builder",
+  "version": "0.0.0",
+  "description": "Builds your file or project and displays the output.",
+  "keywords": [
+    "build",
+    "builder",
+    "compile"
+  ],
+  "repository": "https://github.com/atom-community/builder",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "author": "Joe Fitzgerald <jfitzgerald@pivotal.io> (http://github.com/joefitzgerald)",
+  "homepage": "https://atom.io/packages/builder",
+  "bugs": {
+    "url": "https://github.com/atom-community/builder/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffeelint": ">=1.8.1",
+    "temp": ">=0.8.1",
+    "underscore-plus": "1.x"
+  },
+  "consumedServices": {
+    "builder.provider": {
+      "versions": {
+        "0.1.0": "consumeProvider"
+      }
+    }
+  }
+}
