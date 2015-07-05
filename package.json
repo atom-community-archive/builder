@@ -1,7 +1,7 @@
 {
   "name": "builder",
   "main": "./lib/builder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Builds your file or project and displays the output.",
   "keywords": [
     "build",
