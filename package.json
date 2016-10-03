@@ -20,7 +20,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "coffeelint": ">=1.8.1",
+    "coffeelint": ">=1.16.0",
     "temp": ">=0.8.1",
     "underscore-plus": "1.x"
   },
